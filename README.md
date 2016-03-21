@@ -9,3 +9,4 @@ Team:
   Florian
   Lionel
   Diego
+  Maxime
