@@ -6,7 +6,7 @@ Ce jeu consiste à trouver un maximum de mots ou noms suivant un thème précis.
 
 Team:
 
-  Yani
+  Yanis
   Florian
   Lionel
   Diego
