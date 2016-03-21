@@ -7,7 +7,7 @@ Ce jeu consiste à trouver un maximum de mots ou noms suivant un thème précis.
 Team Find My Name:
 
   Yani
-  Florian
+  Florian dubois
   Lionel
   Diego
   Maxime
