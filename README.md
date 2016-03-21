@@ -8,6 +8,6 @@ Team Find My Name:
 
   Yani
   Florian dubois
-  Lionel
+  Lionel H
   Diego
   Maxime
