@@ -2,11 +2,31 @@
 
 /**
  * @ngdoc overview
- * @name fristAppApp
+ * @name coursExoApp
  * @description
- * # fristAppApp
+ * # coursExoApp
  *
  * Main module of the application.
  */
 angular
-  .module('fristAppApp', []);
+  .module('coursExoApp', [
+    'ngRoute', 'ui.bootstrap'
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when('/popular', {
+        templateUrl: 'views/movies.html',
+        controller: 'PopularCtrl'
+      })
+      .when('/search/:query', {
+        templateUrl: 'views/movies.html',
+        controller: 'SearchCtrl'
+      })
+      .when('/info/:id', {
+        templateUrl: 'views/info.html',
+        controller: 'InfoCtrl'
+      })
+      .otherwise({
+        redirectTo: '/popular'
+      });
+  });

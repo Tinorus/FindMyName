@@ -1,5 +1,7 @@
 // Karma configuration
-// Generated on 2016-03-22
+// http://karma-runner.github.io/0.12/config/configuration-file.html
+// Generated on 2014-10-22 using
+// generator-karma 0.8.3
 
 module.exports = function(config) {
   'use strict';
@@ -12,23 +14,21 @@ module.exports = function(config) {
     basePath: '../',
 
     // testing framework to use (jasmine/mocha/qunit/...)
-    // as well as any additional frameworks (requirejs/chai/sinon/...)
-    frameworks: [
-      'jasmine'
-    ],
+    frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
     files: [
-      // bower:js
-      // endbower
+      'bower_components/angular/angular.js',
+      'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-bootstrap/ui-bootstrap.js',
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 
     // list of files / patterns to exclude
-    exclude: [
-    ],
+    exclude: [],
 
     // web server port
     port: 8080,
@@ -59,7 +59,7 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_INFO
 
     // Uncomment the following lines if you are using grunt's server to run the tests
     // proxies: {
