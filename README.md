@@ -32,3 +32,5 @@ var i = 0;
 i++;
 ```
 
+![Image of Tingting](http://s.psg.fr/psg/image/article/illustration/m/322/64318.jpg)
+
