@@ -5,7 +5,7 @@
 
 1. [Intro](#Intro) 
 2. [Find My Name](#FNM) 
-* [Un Quiz nouvelle génération](#Quiz)
+** [Un Quiz nouvelle génération](#Quiz)
 * [Inspiré de jeux à grand succès](#Inspiré)
 * [D’une simplicité déconcertante](#règles)
 3. [Gestion de Projet](#G) 
